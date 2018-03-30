@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/recordBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="录音"/>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/record_contentLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        >
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@android:color/white">
+            <ImageView
+                android:id="@+id/record_detailView"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/gxx" />
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="50dp"
+                />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

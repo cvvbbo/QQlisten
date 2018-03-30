@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <!--android:oneshot="true"这个设置就是让动画只执行一次-->
+    <item
+        android:drawable="@drawable/uhg1"
+        android:duration="95" />
+    <item
+        android:drawable="@drawable/uhh2"
+        android:duration="95" />
+    <item
+        android:drawable="@drawable/uhi3"
+        android:duration="95" />
+
+    <item
+        android:drawable="@drawable/uhj4"
+        android:duration="95" />
+
+    <item
+        android:drawable="@drawable/uhk5"
+        android:duration="95" />
+
+    <item
+        android:drawable="@drawable/uhl6"
+        android:duration="95" />
+
+    <item
+        android:drawable="@drawable/uhm7"
+        android:duration="95" />
+
+    <item
+        android:drawable="@drawable/uhn8"
+        android:duration="95" />
+
+    <item
+        android:drawable="@drawable/uhc9"
+        android:duration="95" />
+
+    <item
+        android:drawable="@drawable/uhd10"
+        android:duration="95" />
+
+    <item
+        android:drawable="@drawable/uhe11"
+        android:duration="95" />
+
+
+    <item
+        android:drawable="@drawable/uhf12"
+        android:duration="95" />
+
+</animation-list>
